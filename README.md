@@ -1,5 +1,5 @@
 # DevSummit2023_IntroToSwiftUI
-Demo project from the Esri DevSummit 2023 Introduction to SwiftUI.
+Demo project from the Esri DevSummit 2023 "Introduction to SwiftUI" demo theater.
 
 This is a simple application used to demonstrate some basic SwiftUI principles and showcase integrating Esri's [ArcGIS Maps SDK for Swift](https://github.com/Esri/arcgis-maps-sdk-swift) and the [ArcGIS Maps SDK for Swift Toolkit](https://github.com/Esri/arcgis-maps-sdk-swift-toolkit) into your application.
 
