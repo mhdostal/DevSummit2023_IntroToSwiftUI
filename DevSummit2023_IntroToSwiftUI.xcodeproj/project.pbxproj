@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DBA264F29B14BD4006757AB /* DevSummit2023_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA264E29B14BD4006757AB /* DevSummit2023_2App.swift */; };
+		4D2ADC3C29BFB474003B367F /* ArcGISToolkit in Frameworks */ = {isa = PBXBuildFile; productRef = 4D2ADC3B29BFB474003B367F /* ArcGISToolkit */; };
+		4D386B4E29B52DD80059F0C2 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D386B4D29B52DD80059F0C2 /* LocationView.swift */; };
+		4DBA264F29B14BD4006757AB /* DevSummit2023_IntroToSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA264E29B14BD4006757AB /* DevSummit2023_IntroToSwiftUIApp.swift */; };
 		4DBA265129B14BD4006757AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA265029B14BD4006757AB /* ContentView.swift */; };
 		4DBA265329B14BD5006757AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBA265229B14BD5006757AB /* Assets.xcassets */; };
 		4DBA265629B14BD5006757AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBA265529B14BD5006757AB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4DBA264B29B14BD4006757AB /* DevSummit2023_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevSummit2023_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DBA264E29B14BD4006757AB /* DevSummit2023_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevSummit2023_2App.swift; sourceTree = "<group>"; };
+		4D386B4D29B52DD80059F0C2 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		4DBA264B29B14BD4006757AB /* DevSummit2023_IntroToSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevSummit2023_IntroToSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBA264E29B14BD4006757AB /* DevSummit2023_IntroToSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevSummit2023_IntroToSwiftUIApp.swift; sourceTree = "<group>"; };
 		4DBA265029B14BD4006757AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4DBA265229B14BD5006757AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DBA265529B14BD5006757AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2ADC3C29BFB474003B367F /* ArcGISToolkit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,28 +39,30 @@
 		4DBA264229B14BD4006757AB = {
 			isa = PBXGroup;
 			children = (
-				4DBA264D29B14BD4006757AB /* DevSummit2023_2 */,
+				4DBA264D29B14BD4006757AB /* DevSummit2023_IntroToSwiftUI */,
 				4DBA264C29B14BD4006757AB /* Products */,
+				4DBA26D329B16E78006757AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		4DBA264C29B14BD4006757AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4DBA264B29B14BD4006757AB /* DevSummit2023_2.app */,
+				4DBA264B29B14BD4006757AB /* DevSummit2023_IntroToSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4DBA264D29B14BD4006757AB /* DevSummit2023_2 */ = {
+		4DBA264D29B14BD4006757AB /* DevSummit2023_IntroToSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				4DBA264E29B14BD4006757AB /* DevSummit2023_2App.swift */,
+				4DBA264E29B14BD4006757AB /* DevSummit2023_IntroToSwiftUIApp.swift */,
 				4DBA265029B14BD4006757AB /* ContentView.swift */,
 				4DBA265229B14BD5006757AB /* Assets.xcassets */,
 				4DBA265429B14BD5006757AB /* Preview Content */,
+				4D386B4D29B52DD80059F0C2 /* LocationView.swift */,
 			);
-			path = DevSummit2023_2;
+			path = DevSummit2023_IntroToSwiftUI;
 			sourceTree = "<group>";
 		};
 		4DBA265429B14BD5006757AB /* Preview Content */ = {
@@ -67,12 +73,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		4DBA26D329B16E78006757AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4DBA264A29B14BD4006757AB /* DevSummit2023_2 */ = {
+		4DBA264A29B14BD4006757AB /* DevSummit2023_IntroToSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DBA265929B14BD5006757AB /* Build configuration list for PBXNativeTarget "DevSummit2023_2" */;
+			buildConfigurationList = 4DBA265929B14BD5006757AB /* Build configuration list for PBXNativeTarget "DevSummit2023_IntroToSwiftUI" */;
 			buildPhases = (
 				4DBA264729B14BD4006757AB /* Sources */,
 				4DBA264829B14BD4006757AB /* Frameworks */,
@@ -82,9 +95,12 @@
 			);
 			dependencies = (
 			);
-			name = DevSummit2023_2;
+			name = DevSummit2023_IntroToSwiftUI;
+			packageProductDependencies = (
+				4D2ADC3B29BFB474003B367F /* ArcGISToolkit */,
+			);
 			productName = DevSummit2023_2;
-			productReference = 4DBA264B29B14BD4006757AB /* DevSummit2023_2.app */;
+			productReference = 4DBA264B29B14BD4006757AB /* DevSummit2023_IntroToSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4DBA264629B14BD4006757AB /* Build configuration list for PBXProject "DevSummit2023_2" */;
+			buildConfigurationList = 4DBA264629B14BD4006757AB /* Build configuration list for PBXProject "DevSummit2023_IntroToSwiftUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,11 +127,14 @@
 				Base,
 			);
 			mainGroup = 4DBA264229B14BD4006757AB;
+			packageReferences = (
+				4D2ADC3A29BFB306003B367F /* XCRemoteSwiftPackageReference "arcgis-maps-sdk-swift-toolkit" */,
+			);
 			productRefGroup = 4DBA264C29B14BD4006757AB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4DBA264A29B14BD4006757AB /* DevSummit2023_2 */,
+				4DBA264A29B14BD4006757AB /* DevSummit2023_IntroToSwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +157,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DBA265129B14BD4006757AB /* ContentView.swift in Sources */,
-				4DBA264F29B14BD4006757AB /* DevSummit2023_2App.swift in Sources */,
+				4D386B4E29B52DD80059F0C2 /* LocationView.swift in Sources */,
+				4DBA264F29B14BD4006757AB /* DevSummit2023_IntroToSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +286,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DevSummit2023_2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DevSummit2023_IntroToSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = P8HGHS7JQ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,7 +300,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mhd.DevSummit2023-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mhd.DevSummit2023-IntroToSwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -295,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DevSummit2023_2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DevSummit2023_IntroToSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = P8HGHS7JQ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -309,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mhd.DevSummit2023-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mhd.DevSummit2023-IntroToSwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,7 +340,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4DBA264629B14BD4006757AB /* Build configuration list for PBXProject "DevSummit2023_2" */ = {
+		4DBA264629B14BD4006757AB /* Build configuration list for PBXProject "DevSummit2023_IntroToSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4DBA265729B14BD5006757AB /* Debug */,
@@ -329,7 +349,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DBA265929B14BD5006757AB /* Build configuration list for PBXNativeTarget "DevSummit2023_2" */ = {
+		4DBA265929B14BD5006757AB /* Build configuration list for PBXNativeTarget "DevSummit2023_IntroToSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4DBA265A29B14BD5006757AB /* Debug */,
@@ -339,6 +359,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4D2ADC3A29BFB306003B367F /* XCRemoteSwiftPackageReference "arcgis-maps-sdk-swift-toolkit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Esri/arcgis-maps-sdk-swift-toolkit/";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D2ADC3B29BFB474003B367F /* ArcGISToolkit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D2ADC3A29BFB306003B367F /* XCRemoteSwiftPackageReference "arcgis-maps-sdk-swift-toolkit" */;
+			productName = ArcGISToolkit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4DBA264329B14BD4006757AB /* Project object */;
 }
